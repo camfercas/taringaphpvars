@@ -49,7 +49,7 @@ function tOnline($i)
 {
 $url = 'http://www.taringa.net/'.$i.'';
 $onlineVar = Obtener_contenidos($url,'background-position: 0 -792px','<span>Puntos</span>');
-$online = substr($onlineVar, 38, -95);
+$online = substr($onlineVar, 38, -93);
 //Online = user
 //Onlin  = moderador/admin/desarrollador
 if($online == "Online" or $online == "Onlin"){
