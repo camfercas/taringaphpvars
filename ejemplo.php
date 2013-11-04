@@ -1,8 +1,8 @@
 <?
-include_once("funciones.php");
+include_once("tFunciones.php");
 ?>
 
-Nombre: <?=tNombre("codubi");?><br>
+Nombre: <?=tNombre("codubi")?><br>
 Avatar URL: <?=tAvatar("codubi")?><br>
 Pais: <?=tPais("codubi")?><br>
 Rango: <?=tRango("codubi")?><br>
